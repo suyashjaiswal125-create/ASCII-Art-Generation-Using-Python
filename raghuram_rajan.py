@@ -1,6 +1,6 @@
 def generate_ascii_art():
     height = 32
-    width = 50
+    width = 52
 
     for row in range(height):
         for column in range(width):
