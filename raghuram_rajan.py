@@ -519,6 +519,12 @@ def generate_ascii_art():
                     char="+"
                 elif column == 30:
                     char="-"
+                elif 37 <= column <= 46:
+                    char ="#"
+                elif column == 47:
+                    char ="*"
+                elif column == 48:
+                    char ="-"
                     
             elif row == 21:
                 if column == 3:
@@ -596,9 +602,9 @@ def generate_ascii_art():
                 elif column == 28:
                     char ="."
                 elif column == 35:
-                    charn="."
+                    char ="."
                 elif column == 36:
-                    charn="*"
+                    char ="*"
                 elif 37 <= column <= 51:
                     char ="#"
                     
